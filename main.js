@@ -1,8 +1,7 @@
 (function () {
   var d = document.documentElement;
   var q = new URLSearchParams(location.search).get('lang');
-  var l = (q === 'de' || q === 'en') ? q :
-    ((navigator.language || 'en').toLowerCase().indexOf('de') === 0 ? 'de' : 'en');
+  var l = (q === 'de' || q === 'en') ? q : 'en';
 
   function apply(x) {
     l = x;
