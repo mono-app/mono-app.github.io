@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>mono – Subscription-Free ADHD Focus</title>
+<meta name="description" content="mono is a minimalist ambient sound mixer for focus. One-time purchase, no account, no tracking, works offline.">
+<meta name="theme-color" content="#000000">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' fill='black'/%3E%3Ccircle cx='16' cy='16' r='8' fill='none' stroke='white' stroke-width='2'/%3E%3C/svg%3E">
+<link rel="stylesheet" href="style.css?v=2">
+<style>
+.lead-end{margin-top:36px}
+.mix{list-style:none;margin:36px 0 0;padding:0;width:min(100%,340px);text-align:left}
+.mix li{display:flex;align-items:center;justify-content:space-between;gap:24px;padding:11px 0}
+.mix span{font-weight:500;font-size:16px;color:var(--fg)}
+.mix i{position:relative;flex:0 0 120px;height:1px;background:#333}
+.mix i::before{content:"";position:absolute;left:0;top:0;height:1px;width:calc(var(--v)*100%);background:var(--fg)}
+.mix i::after{content:"";position:absolute;top:50%;left:calc(var(--v)*100%);width:9px;height:9px;margin:-4.5px 0 0 -4.5px;border-radius:50%;background:var(--fg)}
+</style>
+<script src="main.js"></script>
+</head>
+<body>
+<main class="hero">
+  <h1 style="margin:0;line-height:0"><svg class="wm wm-lg draw" viewBox="0 8 250 48" role="img" aria-label="mono" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path pathLength="1" d="M4 50V32A18 18 0 0 1 40 32V50M40 32A18 18 0 0 1 76 32V50"/><circle pathLength="1" cx="114" cy="32" r="18"/><path pathLength="1" d="M152 50V32A18 18 0 0 1 188 32V50"/><circle pathLength="1" cx="226" cy="32" r="18"/></svg></h1>
+  <p class="sub">Subscription-Free ADHD Focus</p>
+
+  <p class="lead en">Ten ambient sounds for focus. Mix them, set a timer, get to work.</p>
+  <p class="lead de">Zehn Ambient-Sounds für den Fokus. Mischen, Timer stellen, loslegen.</p>
+
+  <ul class="mix" aria-label="Sounds">
+    <li><span>Brown Noise</span><i style="--v:0.72"></i></li>
+    <li><span>Pink Noise</span><i style="--v:0.38"></i></li>
+    <li><span>White Noise</span><i style="--v:0.25"></i></li>
+    <li><span>Soft Rain</span><i style="--v:0.6"></i></li>
+    <li><span>Ocean Waves</span><i style="--v:0.45"></i></li>
+    <li><span>Campfire</span><i style="--v:0.3"></i></li>
+    <li><span>Café Ambience</span><i style="--v:0.55"></i></li>
+    <li><span>Library Study</span><i style="--v:0.2"></i></li>
+    <li><span>Keyboard Flow</span><i style="--v:0.5"></i></li>
+    <li><span>Train Ride</span><i style="--v:0.35"></i></li>
+  </ul>
+
+  <p class="lead lead-end en">One purchase. No account, no tracking. Works offline.</p>
+  <p class="lead lead-end de">Einmal kaufen. Kein Konto, kein Tracking. Funktioniert offline.</p>
+
+  <p class="soon en">Coming soon to Google Play and the App Store.</p>
+  <p class="soon de">Bald bei Google Play und im App Store.</p>
+
+  <p class="contact"><a href="mailto:mono-app@gmx.de">mono-app@gmx.de</a></p>
+</main>
+<footer class="foot">
+  <a href="impressum.html" data-int="impressum.html"><span class="en">Legal Notice</span><span class="de">Impressum</span></a>
+  <a href="datenschutz.html" data-int="datenschutz.html"><span class="en">Privacy Policy</span><span class="de">Datenschutz</span></a>
+  <span class="langsw" role="group" aria-label="Language"><button type="button" data-set-lang="en" aria-pressed="true">EN</button><button type="button" data-set-lang="de" aria-pressed="false">DE</button></span>
+</footer>
+</body>
+</html>
